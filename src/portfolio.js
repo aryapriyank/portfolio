@@ -23,7 +23,7 @@ const greeting = {
   username: "Priyank Arya",
   title: "Hi all, I'm Priyank",
   subTitle: emoji(
-    "Software Engineer with 3+ years of Experience, " +
+    "Software Engineer with 4+ years of Experience, " +
       "specializing in Building Full-stack Applications and Data Pipelines. " +
       "Committed to Crafting Innovative Solutions that Truly Make a Difference."
     // "Full Stack Developer with 2+ Years of Experience, " +
@@ -31,14 +31,14 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1_s35_3wcMY2ZcxreBdjFCxqldlSUT2kx/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1y8u24vBIxQKsXkR1fhjj1QVdI4J9TQ-_/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/aryapriyank1",
+  github: "https://github.com/aryapriyank",
   linkedin: "https://www.linkedin.com/in/aryapriyank/",
   gmail: "aryapriyank@vt.edu",
   // gitlab: "link",
@@ -59,9 +59,10 @@ const skillsSection = {
   skills: [
     "I love tackling exciting projects that challenge me and allow me to learn new skills. " +
       "From building a React Application focusing on Drag and Drop, Grid Layout, and Flex Layout, " +
-      // "to developing an online bookstore using Vue.js, Typescript, Java, and MySQL, I have always " +
-      "to developing an Observability Pipeline using Elasticsearch and Kafka, I have always " +
-      "been eager to apply my knowledge and creativity to solve real-world problems.",
+      // "to developing an online bookstore using Vue.js, Typescript, Java, and MySQL, " +
+      // "to developing an Observability Pipeline using Elasticsearch and Kafka, " +
+      "to developing a workflow orchestration model using Temporal in C# .NET, " +
+      "I have always been eager to apply my knowledge and creativity to solve real-world problems.",
 
     // emoji(
     //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -158,7 +159,7 @@ const educationInfo = {
       logo: require("./assets/images/virginiaTechLogo.png"),
       subHeader: "Masters in Computer Science | GPA : 3.94",
       duration: "August 2021 - May 2023",
-      desc: "Coursework: Data Analytics, Blockchain, Software Engineering, Urban Mobility and Computing",
+      desc: "Coursework: Data Analytics, Blockchain, Software Engineering, Web Application Development",
       descBullets: [
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -204,38 +205,58 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer II",
+      company: "The Ohio State University",
+      companylogo: require("./assets/images/ohioStateUniversityLogoWhiteBack.png"),
+      date: "May 2024 – Present",
+      desc: "",
+      descBullets: [
+        "Backend: Architected and implemented major Aegis Learning Systems features (Bulk Enrollment " + 
+        " and FinalGrades) using Temporal with C# and .NET, replacing a fragmented queue-based system " + 
+        " with a robust workflow orchestration model. Increased scalability and throughput, supporting " + 
+        " 500+ courses and enrollment of 65,000+ students each academic year.",
+        "Data Pipelines: Developed ETL pipelines with Python and SQL to automate data ingestion from various " + 
+        " university systems into Aegis, enhancing data accuracy and reducing manual processing time by 70%.",
+        "Observability: Integrated Prometheus and Grafana with Aegis to monitor backend, frontend, and " + 
+        " Temporal metrics in real time, enabling proactive issue detection and reducing debugging time " + 
+        " for production incidents.",
+        "Authentication: Migrated Aegis to Shibboleth-based authentication, delivering a scalable, " + 
+        " server-side solution that integrates seamlessly with university-wide infrastructure and remains " + 
+        " independent of frontend frameworks.",
+        "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate " + 
+        " development cycles, improve code quality, and reduce time spent on boilerplate tasks."
+      ],
+    },
+    {
       role: "Software Engineer",
       company: "Virginia Tech",
       companylogo: require("./assets/images/virginiaTechLogoWhiteBack.png"),
-      date: "July 2023 – Present",
+      date: "July 2023 – April 2024",
       desc: "",
       descBullets: [
-        "Introduced an external sorting algorithm using Replacement Selection and Multi-way " +
-          "Merge using modified MinHeap and the Java ByteBuffer, dividing the file into 512-byte " +
-          "blocks for sorting 16-byte records.",
-        "Created a React application with rapid prototyping, utilizing React DnD and hooks. " +
-          "Optimized layout with essential React packages including react-rnd, react-grid-layout, " +
-          "flexlayout-react, and react-split-pane.",
+        "Frontend: Built a React application with rapid prototyping, leveraging advanced " + 
+        "React libraries to create flexible layouts and dynamic user interfaces for research " +
+        "staff. Applied LLM-based code generation and refactoring to prototype solutions rapidly, " +
+        "enabling faster iteration and smoother integration of new features.",
+        "Testing: Implemented unit tests with Jest, raising code coverage from 40% to 95% and " +
+        "significantly reducing regression issues.",
       ],
     },
     {
       role: "Software Engineer",
       company: "MediaKind",
       companylogo: require("./assets/images/mediakindLogo.png"),
-      date: "September 2018 – June 2021",
+      date: "February 2019 – June 2021",
       desc: "",
       descBullets: [
-        "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot " +
-          "managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
-        "Frontend: Created an Operator Portal using React.js with TypeScript and utilized react-charts" +
-          " for visualizations, resulting in an 80% improvement in data monitoring and client engagement.",
-        "Observability Pipeline: Implemented an observability pipeline to enable real-time visualizations " +
-          "on the Operator Portal by storing user activity logs and events into Elasticsearch via Kafka.",
-        "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs " +
-          "for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational " +
-          "costs by 40%.",
-        "Testing: Implemented unit test cases for the application using Jest, increasing code " +
-          "coverage from 40% to 95%.",
+        "Backend: Developed a high-throughput User Activity Analytics microservice with C# and .NET, " +
+        "managing 10,000 requests/sec at p99 latency of 800ms with Cassandra.",
+        "Frontend: Created an Operator Portal in React.js with TypeScript, improving data monitoring " +
+        "efficiency by 80% and boosting client engagement.",
+        "Observability: Built an observability pipeline with Kafka and Elasticsearch, enabling real-time " +
+        "log/event visualization and faster incident resolution.",
+        "Code Containerization: Refactored a monolithic application into 11 microservices with REST APIs " +
+        "and deployed on Azure with Docker, cutting operational costs by 40%.",
       ],
     },
     // {
@@ -370,17 +391,17 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "First Indian to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
+          url: "https://drive.google.com/?usp=sharing",
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
+          url: "https://drive.google.com/?usp=sharing",
         },
         {
           name: "Google Code-in Blog",
@@ -454,7 +475,7 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      subtitle: "Codelab at GDG DevFest Delhi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/",
     },
@@ -482,7 +503,7 @@ const contactInfo = {
   email_address: "aryapriyank@vt.edu",
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
