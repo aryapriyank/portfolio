@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
-import { Fade } from "./components/animations/Fade";
+import { Fade } from "../../components/animations/Fade";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {

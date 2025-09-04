@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Fade } from "./components/animations/Fade";
+import { Fade } from "../../components/animations/Fade";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 // eslint-disable-next-line
