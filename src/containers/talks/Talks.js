@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "./Talks.scss";
 import TalkCard from "../../components/talkCard/TalkCard";
 import {talkSection} from "../../portfolio";
-import { Fade } from "./components/animations/Fade";
+import { Fade } from "../../components/animations/Fade";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {

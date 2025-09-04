@@ -1,6 +1,6 @@
 import React from "react";
 import "./GithubRepoCard.scss";
-import { Fade } from "./components/animations/Fade";
+import { Fade } from  "../animations/Fade";
 import {formatFileSizeDisplay} from "../../utils";
 
 export default function GithubRepoCard({repo, isDark}) {
