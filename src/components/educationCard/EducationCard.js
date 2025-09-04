@@ -1,5 +1,6 @@
 import React, {createRef, useContext} from "react";
-import {Fade, Slide} from "react-reveal";
+import { Fade } from "./components/animations/Fade";
+import { Slide } from "./components/animations/Slide";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
 
