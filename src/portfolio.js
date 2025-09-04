@@ -45,7 +45,7 @@ const socialMediaLinks = {
   // facebook: "link",
   // medium: "link",
   // stackoverflow: "link",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  // Instagram and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true, // Set true to display this section, defaults to false
 };
@@ -482,13 +482,6 @@ const contactInfo = {
   email_address: "aryapriyank@vt.edu",
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false, // Set true to display this section, defaults to false
-};
-
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
@@ -507,6 +500,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
   isHireable,
 };
