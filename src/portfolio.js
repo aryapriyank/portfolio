@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1y8u24vBIxQKsXkR1fhjj1QVdI4J9TQ-_/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KISiTOwULBlCy1IHce7AupXRW90C89_F/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -75,6 +75,8 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
+// TODO: Replace with svgs, goto: https://icon-sets.iconify.design/?query=javascript
+// Video Link: www.youtube.com/watch?v=or7amkb0Pk8
 
   softwareSkills: [
     {
@@ -211,20 +213,10 @@ const workExperiences = {
       date: "May 2024 – Present",
       desc: "",
       descBullets: [
-        "Backend: Architected and implemented major Aegis Learning Systems features (Bulk Enrollment " + 
-        " and FinalGrades) using Temporal with C# and .NET, replacing a fragmented queue-based system " + 
-        " with a robust workflow orchestration model. Increased scalability and throughput, supporting " + 
-        " 500+ courses and enrollment of 65,000+ students each academic year.",
-        "Data Pipelines: Developed ETL pipelines with Python and SQL to automate data ingestion from various " + 
-        " university systems into Aegis, enhancing data accuracy and reducing manual processing time by 70%.",
-        "Observability: Integrated Prometheus and Grafana with Aegis to monitor backend, frontend, and " + 
-        " Temporal metrics in real time, enabling proactive issue detection and reducing debugging time " + 
-        " for production incidents.",
-        "Authentication: Migrated Aegis to Shibboleth-based authentication, delivering a scalable, " + 
-        " server-side solution that integrates seamlessly with university-wide infrastructure and remains " + 
-        " independent of frontend frameworks.",
-        "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate " + 
-        " development cycles, improve code quality, and reduce time spent on boilerplate tasks."
+        "Backend: Implemented major Aegis Learning System features - Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration model. Improved scalability, throughput, and reliability, supporting the creation of 500+ courses and enrollment of 65,000+ students each academic year.",
+        "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Aegis to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents.",
+        "Authentication: Migrated Aegis to Shibboleth-based authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
+        "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
     },
     {
@@ -234,11 +226,10 @@ const workExperiences = {
       date: "July 2023 – April 2024",
       desc: "",
       descBullets: [
-        "Frontend: Built a React application with rapid prototyping, leveraging advanced " + 
-        "React libraries to create flexible layouts and dynamic user interfaces for research " +
-        "staff. Applied LLM-based code generation and refactoring to prototype solutions rapidly, " +
+        "Frontend: Built a React application with rapid prototyping, utilizing React DnD and hooks. Optimized layouts using key React libraries including react-rnd, react-grid-layout, flexlayout-react, and react-split-pane." +
+        " Applied LLM-based code generation and refactoring to prototype solutions rapidly, " +
         "enabling faster iteration and smoother integration of new features.",
-        "Testing: Implemented unit tests with Jest, raising code coverage from 40% to 95% and " +
+        "Testing: Implemented unit tests for the application using Jest, increasing code coverage from 40% to 95% and " +
         "significantly reducing regression issues.",
       ],
     },
