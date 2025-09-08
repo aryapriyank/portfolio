@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KISiTOwULBlCy1IHce7AupXRW90C89_F/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1MFMS9YC-zovYg5MH8fIbJ07OvVIpO_P8/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -240,14 +240,10 @@ const workExperiences = {
       date: "February 2019 – June 2021",
       desc: "",
       descBullets: [
-        "Backend: Developed a high-throughput User Activity Analytics microservice with C# and .NET, " +
-        "managing 10,000 requests/sec at p99 latency of 800ms with Cassandra.",
-        "Frontend: Created an Operator Portal in React.js with TypeScript, improving data monitoring " +
-        "efficiency by 80% and boosting client engagement.",
-        "Observability: Built an observability pipeline with Kafka and Elasticsearch, enabling real-time " +
-        "log/event visualization and faster incident resolution.",
-        "Code Containerization: Refactored a monolithic application into 11 microservices with REST APIs " +
-        "and deployed on Azure with Docker, cutting operational costs by 40%.",
+        "Backend: Developed a User Activity Analytics microservice with C# and .NET managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
+        "Frontend: Created an Operator Portal using React.js with TypeScript and utilized react-charts for visualizations, resulting in an 80% improvement in data monitoring and client engagement.",
+        "Observability Pipeline: Implemented an observability pipeline to enable real-time visualizations on the Operator Portal by storing user activity logs and events into Elasticsearch via Kafka.",
+        "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational costs by 40%."
       ],
     },
     // {
