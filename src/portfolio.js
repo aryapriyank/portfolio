@@ -229,6 +229,7 @@ const workExperiences = {
         "Frontend: Built a React application with rapid prototyping, utilizing React DnD and hooks. Optimized layouts using key React libraries including react-rnd, react-grid-layout, flexlayout-react, and react-split-pane." +
         " Applied LLM-based code generation and refactoring to prototype solutions rapidly, " +
         "enabling faster iteration and smoother integration of new features.",
+        "Backend: Developed a Java-based two-dimensional Database System, using Skip List and PR QuadTree data structures to facilitate spatial queries such as insert, remove, search, intersections, and region-search.",
         "Testing: Implemented unit tests for the application using Jest, increasing code coverage from 40% to 95% and " +
         "significantly reducing regression issues.",
       ],
@@ -240,7 +241,7 @@ const workExperiences = {
       date: "February 2019 – June 2021",
       desc: "",
       descBullets: [
-        "Backend: Developed a User Activity Analytics microservice with C# and .NET managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
+        "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
         "Frontend: Created an Operator Portal using React.js with TypeScript and utilized react-charts for visualizations, resulting in an 80% improvement in data monitoring and client engagement.",
         "Observability Pipeline: Implemented an observability pipeline to enable real-time visualizations on the Operator Portal by storing user activity logs and events into Elasticsearch via Kafka.",
         "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational costs by 40%."
