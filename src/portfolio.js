@@ -23,7 +23,7 @@ const greeting = {
   username: "Priyank Arya",
   title: "Hi all, I'm Priyank",
   subTitle: emoji(
-    "Software Engineer with 4+ years of Experience, " +
+    "Software Engineer with 6 years of Experience, " +
       "specializing in Building Full-stack Applications and Data Pipelines. " +
       "Committed to Crafting Innovative Solutions that Truly Make a Difference."
     // "Full Stack Developer with 2+ Years of Experience, " +
