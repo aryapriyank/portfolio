@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1MFMS9YC-zovYg5MH8fIbJ07OvVIpO_P8/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ARjq4WFZksAy1VKPhZAKuP-r7vvXBq3S/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -215,7 +215,8 @@ const workExperiences = {
       descBullets: [
         "Backend: Implemented major Aegis Learning System features - Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration model. Improved scalability, throughput, and reliability, supporting the creation of 500+ courses and enrollment of 65,000+ students each academic year.",
         "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Aegis to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents.",
-        "Authentication: Migrated Aegis to Shibboleth-based authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
+        "Frontend: Migrated Aegis to Shibboleth-based authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
+        "Orchestration: Implemented User Transition Queues in Airflow to enhance user provisioning efficiency and streamline user update workflows across IAM, internal databases, and Canvas.",
         "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
     },
@@ -247,18 +248,21 @@ const workExperiences = {
         "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational costs by 40%."
       ],
     },
-    // {
-    //   role: "Software Engineer",
-    //   company: "Cognizant",
-    //   companylogo: require("./assets/images/cognizantLogo.png"),
-    //   date: "July 2017 – August 2018",
-    //   desc: "",
-    //   descBullets: [
-    //     "Built a text classification tool by using Scala and Apache PDFBox to get text from PDFs with an accuracy of 88%.",
-    //     "Designed a Naive Bayes model to classify section-wise segregated text into cause, remedies & features with the help\n" +
-    //       "of an extensive training dataset.",
-    //   ],
-    // },
+    {
+      role: "Software Engineer",
+      company: "Cognizant",
+      companylogo: require("./assets/images/cognizantLogo.png"),
+      date: "July 2017 – August 2018",
+      desc: "",
+      descBullets: [
+        "Backend & ML: Built a text classification pipeline using Scala and Apache Spark to classify section-wise text into causes, remedies, and features, ingesting data from Google RSS feeds into Kafka topics for downstream processing, improving automated data organization for analytics and reporting.",
+      ],
+      // descBullets: [
+      //   "Built a text classification tool by using Scala and Apache PDFBox to get text from PDFs with an accuracy of 88%.",
+      //   "Designed a Naive Bayes model to classify section-wise segregated text into cause, remedies & features with the help\n" +
+      //     "of an extensive training dataset.",
+      // ],
+    },
   ],
 };
 
