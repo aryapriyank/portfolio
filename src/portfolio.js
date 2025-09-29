@@ -239,7 +239,7 @@ const workExperiences = {
       role: "Software Engineer",
       company: "MediaKind",
       companylogo: require("./assets/images/mediakindLogo.png"),
-      date: "February 2019 – June 2021",
+      date: "September 2018 – June 2021",
       desc: "",
       descBullets: [
         "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
