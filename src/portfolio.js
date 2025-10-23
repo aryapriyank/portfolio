@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1KYxOZYezZWOidiIVMMdJqlA8JAQtuMOe/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1EGm-pVl0HRSWDph4vnk29Rk6XcRxU1Kx/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -213,10 +213,10 @@ const workExperiences = {
       date: "May 2024 – Present",
       desc: "",
       descBullets: [
-        "Backend: Implemented major Aegis Learning System features - Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration model. Improved scalability, throughput, and reliability, supporting the creation of 500+ courses and enrollment of 65,000+ students each academic year.",
+        "Backend: Designed and implemented major Aegis Learning System features - Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration model, improving scalability, throughput, and reliability, supporting the creation of 500+ courses and enrollment of 65,000+ students each academic year.",
+        "Authentication: Migrated Aegis to Shibboleth-based authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
         "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Aegis to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents.",
-        "Frontend: Migrated Aegis to Shibboleth-based authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
-        "Orchestration: Implemented User Transition Queues in Airflow to enhance user provisioning efficiency and streamline user update workflows across IAM, internal databases, and Canvas.",
+        "Orchestration: Implemented User Transition Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas.",
         "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
     },
