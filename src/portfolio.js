@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ZLGGIms1YQiILdyjNZWYfiTl-IH6ctDL/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1A4aRd97hqkxd84i8fqvfxPLG-XWEv_2C/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -281,6 +281,21 @@ const bigProjects = {
   // subtitle: "Some Cool Stuff that I have done !",
   subtitle: "",
   projects: [
+    {
+      image: require("./assets/images/elasticStack.webp"),
+      imageAlt: "Elastic Stack",
+      projectName: "Elastic Stack Pipeline",
+      projectDesc:
+        "Built an end-to-end log processing pipeline using Kafka, Filebeat, Elasticsearch, Logstash, and " +
+        "Kibana, enabling real-time ingestion, transformation, and visualization of application logs.",
+      footerLink: [
+        {
+          name: "GitHub Link",
+          url: "https://github.com/aryapriyank/kafka-filebeat-elk",
+        },
+        //  you can add extra buttons here.
+      ],
+    },
     {
       image: require("./assets/images/reactApp.webp"),
       imageAlt: "React App",
