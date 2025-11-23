@@ -227,7 +227,8 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Frontend & Testing: Built a React application with rapid prototyping and implemented unit and end-to-end testing using Jest and Selenium, increasing overall test coverage from 40% to 95%.",
-        "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Django to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents."
+        "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Django to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents.",
+        "Backend: Developed a Java-based two-dimensional Database System, using Skip List and PR QuadTree data structures to facilitate spatial queries such as insert, remove, search, intersections, and region-search."
       ],
     },
     {
