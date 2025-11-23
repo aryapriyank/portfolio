@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1A4aRd97hqkxd84i8fqvfxPLG-XWEv_2C/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1E4UI21wOXcSDWz9wTLWFHBYcoKhbdFr1/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -214,9 +214,8 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Backend: Designed and implemented major Aegis Learning System features - Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration model, improving scalability, throughput, and reliability, supporting the creation of 500+ courses and enrollment of 65,000+ students each academic year.",
-        "Authentication: Migrated Aegis to Shibboleth-based authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
-        "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Aegis to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents.",
-        "Orchestration: Implemented User Transition Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas.",
+        "Orchestration: Implemented User Transition Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas LMS.",
+        "Authentication: Migrated Aegis to Shibboleth-based SAML authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
         "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
     },
@@ -227,12 +226,8 @@ const workExperiences = {
       date: "July 2023 – April 2024",
       desc: "",
       descBullets: [
-        "Frontend: Built a React application with rapid prototyping, utilizing React DnD and hooks. Optimized layouts using key React libraries including react-rnd, react-grid-layout, flexlayout-react, and react-split-pane." +
-        " Applied LLM-based code generation and refactoring to prototype solutions rapidly, " +
-        "enabling faster iteration and smoother integration of new features.",
-        "Backend: Developed a Java-based two-dimensional Database System, using Skip List and PR QuadTree data structures to facilitate spatial queries such as insert, remove, search, intersections, and region-search.",
-        "Testing: Implemented unit tests for the application using Jest, increasing code coverage from 40% to 95% and " +
-        "significantly reducing regression issues.",
+        "Frontend & Testing: Built a React application with rapid prototyping and implemented unit and end-to-end testing using Jest and Selenium, increasing overall test coverage from 40% to 95%.",
+        "Observability: Integrated Prometheus and Grafana with OpenTelemetry in Django to monitor system metrics in real time, enabling proactive issue detection and faster resolution of incidents."
       ],
     },
     {
@@ -242,9 +237,8 @@ const workExperiences = {
       date: "September 2018 – June 2021",
       desc: "",
       descBullets: [
+        "Frontend & Observability: Built an observability pipeline using Kafka, Elasticsearch, and Kibana based on events, metrics, and user activity logs. Created an Operator Portal with React.js and TypeScript and utilized react-charts for data visualizations to achieve 80% improvement in data monitoring and client engagement.",
         "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
-        "Frontend: Created an Operator Portal using React.js with TypeScript and utilized react-charts for visualizations, resulting in an 80% improvement in data monitoring and client engagement.",
-        "Observability Pipeline: Implemented an observability pipeline to enable real-time visualizations on the Operator Portal by storing user activity logs and events into Elasticsearch via Kafka.",
         "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational costs by 40%."
       ],
     },
