@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1E4UI21wOXcSDWz9wTLWFHBYcoKhbdFr1/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12DaxOeiGuoeCVPYHXj-w3tjo4M7tGR6i/view?usp=sharings", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -58,10 +58,11 @@ const skillsSection = {
   subTitle: "",
   skills: [
     "I love tackling exciting projects that challenge me and allow me to learn new skills. " +
-      "From building a React Application focusing on Drag and Drop, Grid Layout, and Flex Layout, " +
+      // "From building a React Application focusing on Drag and Drop, Grid Layout, and Flex Layout, " +
+      "From building a text classification pipeline using Scala and Spark, " +
       // "to developing an online bookstore using Vue.js, Typescript, Java, and MySQL, " +
       // "to developing an Observability Pipeline using Elasticsearch and Kafka, " +
-      "to developing a workflow orchestration model using Temporal in C# .NET, " +
+      "to developing a workflow orchestration ETL pipeline using Temporal in C# .NET, " +
       "I have always been eager to apply my knowledge and creativity to solve real-world problems.",
 
     // emoji(
@@ -213,8 +214,8 @@ const workExperiences = {
       date: "May 2024 – Present",
       desc: "",
       descBullets: [
-        "Backend: Designed and implemented major Aegis Learning System features - Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration model, improving scalability, throughput, and reliability, supporting the creation of 500+ courses and enrollment of 65,000+ students each academic year.",
-        "Orchestration: Implemented User Transition Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas LMS.",
+        "Backend: Designed and implemented major Aegis Learning System features - Student Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration ETL pipeline, improving scalability, throughput, and reliability, supporting the creation  of 500+ courses and enrollment of 65,000+ students each academic year.",
+        "Orchestration: Implemented User CDC Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas LMS.",
         "Authentication: Migrated Aegis to Shibboleth-based SAML authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
         "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
@@ -238,8 +239,8 @@ const workExperiences = {
       date: "September 2018 – June 2021",
       desc: "",
       descBullets: [
-        "Frontend & Observability: Built an observability pipeline using Kafka, Elasticsearch, and Kibana based on events, metrics, and user activity logs. Created an Operator Portal with React.js and TypeScript and utilized react-charts for data visualizations to achieve 80% improvement in data monitoring and client engagement.",
-        "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
+        "Frontend & Observability: Built an ELT observability pipeline using Kafka, Elasticsearch, and Kibana to process event streams, system metrics, and user activity logs. Created an Operator Portal with React.js and TypeScript and utilized react-charts for data visualizations to achieve 80% improvement in data monitoring and client engagement.",
+        "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot, handling 10,000 RPS with median latency under 50ms and p99 latency at 800ms, backed by Cassandra.",
         "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational costs by 40%."
       ],
     },
