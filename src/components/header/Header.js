@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
-import Headroom from "react-headroom";
+import { motion } from "framer-motion";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import { useHeaderAnimation } from "../../hooks/useHeaderAnimation";
 import {
   greeting,
   workExperiences,
@@ -17,6 +18,7 @@ import {
 
 function Header() {
   const { isDark } = useContext(StyleContext);
+  const isHidden = useHeaderAnimation();
   const viewExperience = workExperiences.display;
   // eslint-disable-next-line
   const viewOpenSource = openSource.display;
@@ -28,9 +30,13 @@ function Header() {
   const viewTalks = talkSection.display;
 
   return (
-    <Headroom>
-      <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="/" className="logo">
+    <motion.header
+      className={isDark ? "dark-menu header" : "header"}
+      initial={{ y: 0 }}
+      animate={{ y: isHidden ? -100 : 0 }}
+      transition={{ duration: 0.3, ease: "easeInOut" }}
+    >
+      <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -94,8 +100,7 @@ function Header() {
             </a>
           </li>
         </ul>
-      </header>
-    </Headroom>
-  );
-}
-export default Header;
+      </motion.header>
+    );
+  }
+  export default Header;
