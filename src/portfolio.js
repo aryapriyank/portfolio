@@ -23,7 +23,7 @@ const greeting = {
   username: "Priyank Arya",
   title: "Hi all, I'm Priyank",
   subTitle: emoji(
-    "Software Engineer with 6 years of Experience, " +
+    "Senior Software Engineer with 6+ years of Experience, " +
       "specializing in Building Full-stack Applications and Data Pipelines. " +
       "Committed to Crafting Innovative Solutions that Truly Make a Difference."
     // "Full Stack Developer with 2+ Years of Experience, " +
@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12DaxOeiGuoeCVPYHXj-w3tjo4M7tGR6i/view?usp=sharings", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1FT54s9YlMIx96RWeRyB4dXbHYWeSV_t2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -208,7 +208,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer II",
+      role: "Senior Software Engineer",
       company: "The Ohio State University",
       companylogo: require("./assets/images/ohioStateUniversityLogoWhiteBack.png"),
       date: "May 2024 – Present",
@@ -216,8 +216,8 @@ const workExperiences = {
       descBullets: [
         "Backend: Designed and implemented major Aegis Learning System features - Student Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration ETL pipeline, improving scalability, throughput, and reliability, supporting the creation  of 500+ courses and enrollment of 65,000+ students each academic year.",
         "Orchestration: Implemented User CDC Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas LMS.",
-        "Authentication: Migrated Aegis to Shibboleth-based SAML authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
-        "Productivity: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
+        "Security: Migrated Aegis to Shibboleth-based SAML authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
+        "AI Tools: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
     },
     {
@@ -233,7 +233,7 @@ const workExperiences = {
       ],
     },
     {
-      role: "Software Engineer",
+      role: "Senior Software Engineer",
       company: "MediaKind",
       companylogo: require("./assets/images/mediakindLogo.png"),
       date: "September 2018 – June 2021",
@@ -241,7 +241,7 @@ const workExperiences = {
       descBullets: [
         "Frontend & Observability: Built an ELT observability pipeline using Kafka, Elasticsearch, and Kibana to process event streams, system metrics, and user activity logs. Created an Operator Portal with React.js and TypeScript and utilized react-charts for data visualizations to achieve 80% improvement in data monitoring and client engagement.",
         "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot, handling 10,000 RPS with median latency under 50ms and p99 latency at 800ms, backed by Cassandra.",
-        "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational costs by 40%."
+        "Microservices Architecture: Refactored monolithic application into 11 microservices with REST APIs for CRUD operations and deployed them on Microsoft Azure using Docker, reducing operational costs by 40%."
       ],
     },
     {
