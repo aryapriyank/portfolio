@@ -23,7 +23,7 @@ const greeting = {
   username: "Priyank Arya",
   title: "Hi all, I'm Priyank",
   subTitle: emoji(
-    "Senior Software Engineer with 6+ years of Experience, " +
+    "Software Engineer with 6+ years of Experience, " +
       "specializing in Building Full-stack Applications and Data Pipelines. " +
       "Committed to Crafting Innovative Solutions that Truly Make a Difference."
     // "Full Stack Developer with 2+ Years of Experience, " +
@@ -31,7 +31,7 @@ const greeting = {
     //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1FT54s9YlMIx96RWeRyB4dXbHYWeSV_t2/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1RcTI66TP4CuQ_J_U5EdoF1mToQHxGxRr/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -208,14 +208,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Software Engineer",
+      role: "Software Engineer II",
       company: "The Ohio State University",
       companylogo: require("./assets/images/ohioStateUniversityLogoWhiteBack.png"),
       date: "May 2024 – Present",
       desc: "",
       descBullets: [
+        "GenAI: Built AI-powered chatbots using Retrieval-Augmented Generation (RAG) with Amazon Bedrock, creating course-specific knowledge bases and vector embeddings to deliver accurate, contextual responses.",
         "Backend: Designed and implemented major Aegis Learning System features - Student Bulk Enrollment and Final Grades Submission using Temporal with C# and .NET, replacing a fragmented queue-based system with a robust workflow orchestration ETL pipeline, improving scalability, throughput, and reliability, supporting the creation  of 500+ courses and enrollment of 65,000+ students each academic year.",
         "Orchestration: Implemented User CDC Queues in Airflow to automate user provisioning and streamline update workflows across IAM, internal databases, and Canvas LMS.",
+        "Frontend: Implemented a modular WPF UI using XAML and C# for the Classroom Management (CM) tool, providing a responsive and maintainable interface for scheduling and managing academic spaces.",
         "Security: Migrated Aegis to Shibboleth-based SAML authentication, providing a scalable, server-side solution that integrates with university-wide infrastructure and remains independent of frontend frameworks.",
         "AI Tools: Leveraged AI-assisted coding tools (Claude Code, Copilot, Gemini) to accelerate development cycles, improve code quality, and reduce time spent on boilerplate tasks."
       ],
@@ -233,7 +235,7 @@ const workExperiences = {
       ],
     },
     {
-      role: "Senior Software Engineer",
+      role: "Software Engineer",
       company: "MediaKind",
       companylogo: require("./assets/images/mediakindLogo.png"),
       date: "September 2018 – June 2021",
